@@ -1,0 +1,26 @@
+﻿int value = 1;
+
+//value = value + 1;
+//Console.WriteLine("First increment: " + value);
+
+//value += 1;
+//Console.WriteLine("Second increment: " + value);
+
+//value++;
+//Console.WriteLine("Third increment: " + value);
+
+//value = value - 1;
+//Console.WriteLine("First decrement: " + value);
+
+//value -= 1;
+//Console.WriteLine("Second decrement: " + value);
+
+//value--;
+//Console.WriteLine("Third decrement: " + value);
+
+value++;
+
+Console.WriteLine("First: " + value); // 2
+Console.WriteLine($"Second: {value++}"); // 2
+Console.WriteLine("Third: " + value); // 3
+Console.WriteLine("Fourth: " + (++value)); // 4
